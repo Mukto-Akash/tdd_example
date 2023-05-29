@@ -1,0 +1,18 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.3, pytest-7.3.1, pluggy-1.0.0
+rootdir: C:\Users\makash\Documents\Intermediate Python OLRN1507\projects\tdd_example\tdd_example\tests
+collected 3 items
+
+test_example.py .F.                                                      [100%]
+
+================================== FAILURES ===================================
+___________________________ test_two_plus_two_fail ____________________________
+
+    def test_two_plus_two_fail():
+>       assert 2 + 2 == 5
+E       assert (2 + 2) == 5
+
+test_example.py:8: AssertionError
+=========================== short test summary info ===========================
+FAILED test_example.py::test_two_plus_two_fail - assert (2 + 2) == 5
+========================= 1 failed, 2 passed in 0.13s =========================
